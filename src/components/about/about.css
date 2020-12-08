@@ -1,0 +1,28 @@
+.about {
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+}
+
+.about-container {
+  display: inline-block;
+  width: 70%;
+}
+
+.img-contain {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+  justify-items: center;
+}
+
+.img-contain img {
+  width: 230px;
+  height: 150px;
+}

@@ -1,0 +1,19 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-family: "Calluna-Regular";
+}
+
+@font-face {
+  font-family: "Calluna-Regular";
+  src: local("Calluna-Regular"),
+    url(./fonts/Calluna-Regular.otf) format("truetype");
+}

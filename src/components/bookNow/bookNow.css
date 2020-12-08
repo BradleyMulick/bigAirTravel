@@ -1,0 +1,21 @@
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about-container {
+  display: inline-block;
+  width: 70%;
+}
+
+.img-contain {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+  justify-items: center;
+}
+
+.img-contain img {
+  width: 230px;
+  height: 150px;
+}

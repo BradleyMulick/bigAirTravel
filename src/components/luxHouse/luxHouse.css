@@ -1,0 +1,110 @@
+.about {
+  height: auto;
+  background-color: white;
+  font-family: europa;
+
+  font-style: normal;
+}
+
+.about-container {
+  padding-top: 70px;
+  display: inline-block;
+  width: 70%;
+  overflow: hidden;
+}
+
+.img-contain {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+  justify-items: center;
+}
+
+.img-contain img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-image {
+  height: auto;
+  overflow: hidden;
+  object-fit: scale-down;
+  width: 100%;
+  max-height: 800px;
+  height: auto;
+}
+
+.banner-container {
+  position: relative;
+
+  width: 100%;
+
+  bottom: -20%;
+  overflow: hidden;
+}
+
+.lux-info {
+  margin-top: 10vh;
+  text-align: left;
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+
+  line-height: 1.4em;
+}
+
+.lux-info p {
+  margin-top: 20px;
+}
+
+.lux-title {
+  font-family: europa, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+.lux-mini {
+  font-family: europa, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.lux-para {
+  font-family: calluna;
+}
+
+.amenities {
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.amen-list li {
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding-top: 10px;
+    display: inline-block;
+    width: 95%;
+    overflow: hidden;
+  }
+}
