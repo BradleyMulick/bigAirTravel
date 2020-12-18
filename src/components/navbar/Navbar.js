@@ -32,7 +32,7 @@ width: 20%;
     justify-content: center;
 
     .logo {
-        hegiht: auto;
+        height: auto;
         width: 50%;
         }
 }

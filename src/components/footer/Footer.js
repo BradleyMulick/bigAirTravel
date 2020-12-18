@@ -4,7 +4,7 @@ import './footer.css'
 
 const Foot = styled.div`
 
-  height: 13vh;
+  height: 16vh;
   width: 100%;
   background-color: black;
 
@@ -15,6 +15,38 @@ justify-content: space-around;
 
   }
 
+  @media (max-width: 768px) {
+    h3 {
+        font-size: 16px;
+
+  }
+  h1 {
+      font-size: 18px
+  }
+
+  .container {
+      color: whitesmoke;
+display: block;
+
+
+  }
+
+  height: 24vh;
+}
+
+@media (max-width: 1200px) {
+
+    margin-bottom: 0;
+    h3 {
+        font-size: 20px;
+
+  }
+  h1 {
+      font-size: 22px
+  }
+
+}
+
 
 
 `
@@ -24,8 +56,9 @@ export default function Footer() {
         <Foot>
             <div className="container">
 
-                <h2 style={{ paddingTop: "30px" }}>Call Today: 1-385-313-0079</h2>
-                <h2 style={{ paddingTop: "30px" }}>&copy;NowOSA</h2>
+                <h3 style={{ paddingTop: "20px" }}>Call Jeremy: 1-385-313-0079</h3>
+                <h1 style={{ paddingTop: "20px" }}>&copy;NowOSA</h1>
+                <h3 style={{ paddingTop: "20px" }}>Email: costacaptain@yahoo.com</h3>
             </div>
 
 

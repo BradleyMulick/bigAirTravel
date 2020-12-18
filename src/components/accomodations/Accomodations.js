@@ -191,7 +191,7 @@ function Accomodations() {
                 <div className="img-galleryz">
 
                     <ImageGallery items={images} />
-                    <h1 className="title">Sunset Rancheros </h1>
+                    <h1 className="title">Sunset Ranchos</h1>
 
                     <h2>TWO STORY 2 BEDS / 2 BATHS - (2 available)</h2>
                     <p className="room-p">Sunset Ranchos offer sweeping vistas of the Pacific Ocean.  You can fall asleep to the sound of the ocean, awaken to the symphony of the rainforest and catch a glimpse of a magnificent sunset over Caño Island from the comfort of your balcony.
