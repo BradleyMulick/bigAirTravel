@@ -141,8 +141,9 @@ const NavMenu = ({ open }) => {
                 <button class="dropbtn">INFORMATION</button>
                 <div class="dropdown-content">
                     <Link to="/accomodations"><a href="#">Accomodations</a></Link>
-                    <Link to="/rates"><a href="#">Rates</a></Link>
                     <Link to="/getthere"><a href="#">Private Air</a></Link>
+                    <Link to="/activities"><a href="#">Activities & Tours</a></Link>
+                    <Link to="/rates"><a href="#">Rates</a></Link>
                     <Link to="/about"><a href="#">About Us</a></Link>
 
                 </div>

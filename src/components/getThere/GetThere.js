@@ -28,10 +28,10 @@ display: 80%;
 }
 .get-column {
     margin-top: 100px;
-    width: 65%;
+    width: 55%;
     display: inline-block;
 display: inline-block;
-text-align:  left;
+text-align:  center;
 }
 .get-title {
 margin-bottom: 40px;
@@ -61,6 +61,17 @@ font-size: 20x;
 letter-spacing: 2px;
 line-height: 1.4em;
 }
+
+.plane-img {
+    margin-top: 5vh;
+margin-bottom: 5vh;
+}
+
+.plane-img img {
+    width: 100%;
+    height:auto;
+}
+
 @media (max-width: 768px) {
 .getting-osa{
     font-size: 14px;
@@ -75,8 +86,8 @@ export default function Rates() {
             <div className="there-content">
                 <div className="header-img2"></div>
                 <div className="get-column">
+                    <p className="getting-osa" style={{ fontSize: "36px" }}>GETTING TO THE OSA</p>
                     <div className="get-title">
-                        <p className="getting-osa" style={{ fontSize: "36px" }}>GETTING TO THE OSA</p>
 
                     </div>
                     <div className="depart-details">
@@ -84,8 +95,7 @@ export default function Rates() {
                         <p>Arrive San Jose, Costa Rica 6:00 AM Saturday</p>
 
                     </div>
-                    <p style={{ marginTop: "-20px" }}>FLIGHT DETAILS
-</p>
+                    <p className="getting-osa" style={{ fontSize: "26px", marginBottom: "3vh" }}>FLIGHT DETAILS</p>
                     <div className="details-holder">
 
                         <ul className="flight-details">
@@ -104,6 +114,10 @@ export default function Rates() {
                             <li>Access to proprietary Hotel buyouts</li>
                             <li>30 Years Experience with International Tourism</li>
                         </ul>
+                    </div>
+                    <div className="plane-img">
+                        <img src="https://d1a2ot8agkqe8w.cloudfront.net/web/2018/09/a320-airspace-cabin-airbus-640px_74851.jpg" alt="" />
+
                     </div>
 
                     <p className="bottom-para">Upon arrival in San Jose you will transfer to a Cessna Caravan for a 45 minute flight to Drake Bay.</p>
