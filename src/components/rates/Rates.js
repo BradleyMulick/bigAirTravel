@@ -9,6 +9,7 @@ const Rats = styled.div`
     display: flex;
     justify-content: center;
     
+    
 }
 .rates-boxs {
 padding: 44px;
@@ -24,6 +25,7 @@ font-size: 36px;
   width: 100%;
   height: 100vh;
   background-color: thistle;
+
 }
 
 .header-img {
@@ -33,6 +35,15 @@ font-size: 36px;
   background-size: 100%;
   background-position: center;
   background-image: url("https://images.squarespace-cdn.com/content/v1/555f7716e4b0c32dcc3cfe69/1524946374169-BIT9G88MDTHF5OHDPVP9/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/IMG_3491.jpg?format=2500w");
+}
+
+.intro {
+    font-size: 22px;
+}
+
+.packages {
+    margin-top:5vh;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -46,7 +57,8 @@ font-size: 36px;
             margin-top: -130px;
     
     }
-    
+
+   
 }
 `
 
@@ -54,12 +66,23 @@ export default function Rates() {
     return (
         <Rats>
             <div className="header-img"></div>
-            <h2>Packages Include</h2>
-            <p>Seven Night / Eight Day Vacation Packages includes International & Domestic Airfare, All Meals, Accommodations,  Full day guided tour to Corcovado National Park and a Full Day guided tour to Caño Island.  </p>
+            <h1 style={{ marginTop: "5vh" }}>ALL VACATION PACKAGES INCLUDE</h1>
+            <div className="intro">
+                <ul>
+                    <li>Seven Night / Eight Day Accommodations</li>
+                    <li>International & Domestic Airfare</li>
+                    <li>All Meals</li>
+
+                    <li>Full day guided tour to Corcovado National Park</li>
+                    <li>Full Day guided tour to Caño Island</li>
+                </ul>
+
+            </div>
             <div className="rates-column">
-                <div className="rates-boxs">
-                    <h1>Sunset</h1>
-                    <p>$4,574 per person</p>
+                <div className="rates-boxs"><h1>
+                    Superior</h1>
+                    <p>
+                        $3,889 per person</p>
                     <p>
                         $3,650 per child</p>
                 </div>
@@ -70,10 +93,11 @@ export default function Rates() {
                         $4,259 per person
                         </p>
                 </div>
-                <div className="rates-boxs"><h1>
-                    Superior</h1>
-                    <p>
-                        $3,889 per person</p>
+
+                <div className="rates-boxs">
+                    <h1>Sunset</h1>
+                    <p>$4,574 per person</p>
+
                 </div>
             </div>
             <div className="rates-column">
