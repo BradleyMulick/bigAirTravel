@@ -53,17 +53,14 @@ export default class Homepage extends Component {
 
 
 
-                <div className="opening-para">
+                <div className="opening-para" style={{
+                    textAlign: "center"
+                }}>
 
                     <p style={{
                         fontSize: "30px", lineHeight: "1.5", letterSpacing: "5"
-                    }}>Become enchanted, mesmerized by the magic, the beauty, the natural wonder of the primary rainforest and endless secluded beaches.</p><p style={{
-                        fontSize: "30px", lineHeight: "1.5", letterSpacing: "5"
                     }}>
-                        Go in style with comfortable luxury, enjoy seamless transportation, concierge standards and bespoke service from our experienced staff, with a private travel package for you, family, friends or group.</p><p style={{
-                        fontSize: "30px", lineHeight: "1.5", letterSpacing: "5"
-                    }}>
-                        Experience “The Most Biological Place on Earth”  Costa Rica’s Osa Peninsula
+                        Enjoy “The Most Biological Place on Earth”  Costa Rica’s Osa Peninsula...National Geographic
                     </p>
                 </div>
                 {/* 

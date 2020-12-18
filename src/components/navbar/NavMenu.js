@@ -51,7 +51,7 @@ color: white;
 }
 
 .show > .btn-success.dropdown-toggle {
-    color: #black;
+    color: black;
     background-color: rgb(56, 56, 56);
     border-color: rgb(56, 56, 56);
 }
@@ -118,7 +118,7 @@ color: white;
   .dropdown:hover .dropdown-content {display: block;}
 
   .dropdown:hover .dropbtn {background-color: rgb(56, 56, 56);
-
+  }
 `
 
 
