@@ -131,7 +131,7 @@ const NavMenu = ({ open }) => {
     return (
 
         <Ul open={open} className="nav-menu">
-            <li ><Link to="/">HOME</Link></li>
+            <li><Link to="/">HOME</Link></li>
             {/* <li><Link to="/about">ABOUT</Link></li>
             <li><Link to="/rates">RATES</Link></li> */}
 
@@ -140,7 +140,7 @@ const NavMenu = ({ open }) => {
             <div class="dropdown">
                 <button class="dropbtn">INFORMATION</button>
                 <div class="dropdown-content">
-                    <Link to="/accomodations">Accomodations</Link>
+                    <Link to="/accomodations"><a href="#">Accomodations</a></Link>
                     <Link to="/rates"><a href="#">Rates</a></Link>
                     <Link to="/getthere"><a href="#">Private Air</a></Link>
                     <Link to="/about"><a href="#">About Us</a></Link>

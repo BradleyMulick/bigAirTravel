@@ -12,7 +12,7 @@ const Rats = styled.div`
 }
 .rates-boxs {
 padding: 44px;
-display 30%
+display: 30%
 }
 
 @media (max-width: 768px) {

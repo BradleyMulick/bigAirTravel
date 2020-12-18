@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import NavMenu from './NavMenu'
-import { Link } from "react-router-dom";
 
 const StyledBurger = styled.div`
 width: 2rem;
@@ -48,17 +47,14 @@ const Burger = () => {
 
     const [open, setOpen] = useState(false)
 
-
     return (
         <>
             <StyledBurger open={open} onClick={() => setOpen(!open)}>
                 <div />
                 <div />
                 <div />
-
-
             </StyledBurger>
-            <NavMenu close={open} onClick={() => setOpen(!open)} />
+            <NavMenu open={open} />
         </>
     )
 }

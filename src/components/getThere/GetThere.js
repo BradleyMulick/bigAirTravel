@@ -23,7 +23,7 @@ text-align: center;
 
 .rates-boxs {
 padding: 44px;
-display 80%;
+display: 80%;
 }
 
 .get-column {
