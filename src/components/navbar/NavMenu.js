@@ -16,16 +16,13 @@ font-weight: 100;
     display: flex;
     flex-flow: row nowrap;
 color: white;
-
   align-items: center;
-
 margin-bottom: 0;
 z-index: 15;
 li {
     color: black;
     padding: 18px 10px
 }
-
 .book-button {
     color: white;
     padding: 15px;
@@ -33,29 +30,23 @@ li {
 background-color: rgb(56, 56, 56);
 font-family: "Calluna-Regular";
 font-size: 14px;
-
 }
-
-
 .dropdown-menu {
     background-color: rgb(56, 56, 56);
 }
 .dropdown{
 color: white;
 }
-
 .btn-success {
     color: black;
     background-color:  rgb(56, 56, 56);
     border-color: rgb(56, 56, 56);
 }
-
 .show > .btn-success.dropdown-toggle {
     color: #black;
     background-color: rgb(56, 56, 56);
     border-color: rgb(56, 56, 56);
 }
-
 @media (max-width: 768px){
 display: block;
     flex-flow: column nowrap;
@@ -69,7 +60,6 @@ display: block;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     z-index: 15;
-
     li {
         color: white;
     }
@@ -83,20 +73,16 @@ display: block;
     }
     
 }
-
 .dropbtn {
     background-color: rgb(56, 56, 56);
-
     padding: 16px;
 color: white;
     border: none;
   }
-
   .dropdown {
     position: relative;
     display: inline-block;
   }
-
   .dropdown-content {
     display: none;
     position: absolute;
@@ -105,20 +91,15 @@ color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-
   .dropdown-content a:hover {background-color: #ddd;}
-
   .dropdown:hover .dropdown-content {display: block;}
-
   .dropdown:hover .dropbtn {background-color: rgb(56, 56, 56);
-
 `
 
 

@@ -17,13 +17,20 @@ font-family: europa, sans-serif;
 text-align: center;
 }
 
-.header-img2{
-
+.header-img2 {
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100%;
+  background-position: center;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/555f7716e4b0c32dcc3cfe69/1534990190182-OMP80LKURF1IQ9296XXP/ke17ZwdGBToddI8pDm48kNPKVmbt05aEWnErXou3fDl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO_6-8vaS3UGENu9QP5pfFlLbyLeIY6QzmBTG9h7XCKkkQ/DJI_0180.jpg?format=2500w");
 }
+
+
 
 .rates-boxs {
 padding: 44px;
-display 80%;
+display: 80%;
 }
 
 .get-column {

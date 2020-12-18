@@ -11,7 +11,6 @@ import Burger from './Burger'
 const Nav = styled.nav`
 font-family: "Calluna-Regular";
 height: 100px;
-
 padding: 0 20px;
 display: flex;
 justify-content: space-between;
@@ -22,22 +21,17 @@ z-index: 20;
 hegiht: auto;
 width: 20%;
 }
-
 #logo-main {
     width: 100%;
 }
-
 @media (max-width: 768px) {
     align-items: center;
     justify-content: center;
-
     .logo {
         hegiht: auto;
         width: 50%;
         }
 }
-
-
 `
 
 const Navbar = () => {

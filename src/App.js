@@ -12,6 +12,7 @@ import Accomodations from './components/accomodations/Accomodations';
 import GetThere from './components/getThere/GetThere';
 import LuxHouse from './components/luxHouse/LuxHouse.js';
 import BookNow from './components/bookNow/BookNow.js';
+import ActivitiesPage from './components/activities/ActivitiesPage';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/getthere" component={GetThere} />
         <Route path="/book" component={BookNow} />
         <Route path="/luxury-beach-house" component={LuxHouse} />
+        <Route path="/activities" component={ActivitiesPage} />
         {/* <Homepage /> */}
 
       </Switch>
