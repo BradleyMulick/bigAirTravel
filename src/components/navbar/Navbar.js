@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import NavMenu from './NavMenu'
+
 import logo from './now-logo.png'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
@@ -19,7 +19,7 @@ align-items: center;
 background-color: rgb(56, 56, 56);
 z-index: 20;
 .logo {
-hegiht: auto;
+height: auto;
 width: 20%;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './navbar.css'
 import { Link } from "react-router-dom";
 
@@ -140,11 +140,11 @@ const NavMenu = ({ open }) => {
             <div class="dropdown">
                 <button class="dropbtn">INFORMATION</button>
                 <div class="dropdown-content">
-                    <Link to="/accomodations"><a href="#">Accomodations</a></Link>
-                    <Link to="/getthere"><a href="#">Private Air</a></Link>
-                    <Link to="/activities"><a href="#">Activities & Tours</a></Link>
-                    <Link to="/rates"><a href="#">Rates</a></Link>
-                    <Link to="/about"><a href="#">About Us</a></Link>
+                    <Link to="/accomodations">Accomodations</Link>
+                    <Link to="/getthere">Private Air</Link>
+                    <Link to="/activities">Activities & Tours</Link>
+                    <Link to="/rates">Rates</Link>
+                    <Link to="/about">About Us</Link>
 
                 </div>
             </div>
