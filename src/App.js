@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Logo from './bigair9.png'
+
 import Footer from './components/footer/Footer';
 import Homepage from './components/homepage/Homepage';
 

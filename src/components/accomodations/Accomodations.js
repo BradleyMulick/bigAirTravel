@@ -2,7 +2,7 @@ import React, { useLayoutEffect } from 'react'
 import ImageGallery from 'react-image-gallery';
 import styled from 'styled-components'
 import './accom.css'
-import { Link } from "react-router-dom";
+
 
 const Accomo = styled.div`
 width: 100%;

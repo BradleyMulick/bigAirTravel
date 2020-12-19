@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import './homepage.css'
 
-import AwesomeSlider from 'react-awesome-slider';
-import styled from 'styled-components'
-import ImageGallery from 'react-image-gallery';
+
 import HomeGallery from './HomeGallery'
 import { Link } from "react-router-dom";
 
@@ -43,7 +41,7 @@ export default class Homepage extends Component {
                         <img className="the-image" src='https://images.squarespace-cdn.com/content/v1/555f7716e4b0c32dcc3cfe69/1497727025821-B48D1Y1UDXPKTIQAJTVE/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/2017_LaPaloma_CostaRica-613.jpg?format=2500w' alt='' zIndex="100" />
                     </div>
                     <div class="vimeo-wrapper">
-                        <iframe src="https://player.vimeo.com/video/487867058?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1"
+                        <iframe title="intro-vid" src="https://player.vimeo.com/video/487867058?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1"
                             frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
                     </div>
 
