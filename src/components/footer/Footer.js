@@ -56,9 +56,9 @@ export default function Footer() {
         <Foot>
             <div className="container">
 
-                <h3 style={{ paddingTop: "20px" }}>Call Jeremy: 1-385-313-0079</h3>
+                <h3 style={{ paddingTop: "20px" }}>Call Jeremy: (435)-962-9397</h3>
                 <h1 style={{ paddingTop: "20px" }}>&copy;NowOSA</h1>
-                <h3 style={{ paddingTop: "20px" }}>Email: costacaptain@yahoo.com</h3>
+                <h3 style={{ paddingTop: "20px" }}>Email: jeremy@nowosa.com</h3>
             </div>
 
 

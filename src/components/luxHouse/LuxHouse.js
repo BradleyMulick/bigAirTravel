@@ -48,27 +48,7 @@ export default function About() {
                     <img className="banner-image" src={beachHouse} />
                 </div>
 
-                <div className="lux-info">
 
-
-                    <p className='lux-title'>LUXURY BEACH HOUSE</p>
-
-                    <p className='lux-mini'>Escape to paradise</p>
-                    <p className="lux-para">The Luxury Beach House is positioned directly on pristine beaches that are perfect for swimming. Experience tranquility, tropical rainforests, secluded beaches and unforgettable tours. The Luxury Beach House is located on the Drake Bay Coastal Hiking Trail and is only accessible by trail or boat.
-                        </p>
-                    <p className="lux-para">
-
-                        The interior of the house boasts floor to ceiling glass walls and a contemporary design. Three ensuite air-conditioned bedrooms include a master suite with an indigenous teak floor, marble bathroom, wraparound teak deck, and an extra outdoor shower. The guest master suite is in a separate pavilion that offers couples maximum privacy. The living area has high teak ceilings and includes a social area, a gourmet granite kitchen, and walls that can be opened to flow into a spacious terrace perfect for dining, wildlife sightings and ocean views. The residence was designed by Costa Rica's leading architect, Ronald Zurcher.
-</p>
-                    <p className="lux-para">
-
-                        A romantic hibiscus-canopied stairway leads down to two golden sand beaches that include a cave and natural jetty with panoramic views of mountains and the bay. Cocalito Beach, one of Drake Bay's most beautiful beaches, is a short walk away. Tours, transportation options and meals can be arranged through the concierge service provided by La Paloma Lodge. The meal options include pre-ordering groceries to have stocked in the Luxury Beach House kitchen, fresh meals delivered from La Paloma Lodge or dining at the La Paloma Lodge Clubhouse.
-</p>
-                    <p className="lux-para">
-
-                        All of the amenities and facilities of La Paloma Lodge are available for the guests of the Luxury Beach House to enjoy. Good physical condition is recommended for those considering the Luxury Beach House.
-</p>
-                </div>
                 <div className="amenities">
                     <p style={{ marginBottom: "20px", fontSize: "32px" }}>AMENITIES</p>
                     <p style={{ marginBottom: "20px" }}>The 3 bedroom/ 3 bath Luxury Beach House is appointed with the following, with your comfort in mind:</p>

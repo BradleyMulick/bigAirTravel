@@ -14,6 +14,10 @@ font-family: europa, sans-serif;
 .there-content {
 text-align: center;
 }
+.getting-osa {
+    font-family: europa, sans-serif;
+    font-weight: bold
+}
 .header-img2 {
   height: 60vh;
   width: 100%;
@@ -116,13 +120,13 @@ export default function Rates() {
                         </ul>
                     </div>
                     <div className="plane-img">
-                        <img src="https://d1a2ot8agkqe8w.cloudfront.net/web/2018/09/a320-airspace-cabin-airbus-640px_74851.jpg" alt="" />
+                        <img src="https://airbus-h.assetsadobe2.com/is/image/content/dam/products-and-solutions/interior/Cabin/airspace/a320neo-airspace/A320_Airspace_services_detail_14b.jpg?wid=1000&qlt=85,0" alt="" />
 
                     </div>
 
-                    <p className="bottom-para">Upon arrival in San Jose you will transfer to a Cessna Caravan for a 45 minute flight to Drake Bay.</p>
+                    <p >Upon arrival in San Jose you will transfer to a Cessna Caravan for a 45 minute flight to Drake Bay.</p>
 
-                    <p className="bottom-para">                    Once you land in Drake Bay, a taxi will take you on a 20 minute drive to the beachside town of Drake Bay where you will board a boat for a short (5 min) ride across the bay to the La Paloma Lodge dock.
+                    <p>                    Once you land in Drake Bay, a taxi will take you on a 20 minute drive to the beachside town of Drake Bay where you will board a boat for a short (5 min) ride across the bay to the La Paloma Lodge dock.
 </p>
 
 

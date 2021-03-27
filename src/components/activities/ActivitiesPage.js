@@ -18,6 +18,12 @@ align-content:center;
 column-gap: 4vw;
 row-gap:4vh;
 padding:20px;
+font-family: europa, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;
+letter-spacing: 2px;
+line-height: 1.4em;
     
 }
 
@@ -25,10 +31,11 @@ padding:20px;
     margin-top:10vh;
     margin-bottom:5vh;
     font-size: 48px;
+    font-family: europa, sans-serif;
 }
 .activity-grid p {
     text-align: left;
-    font-size: 20px;
+    font-size: 14px;
     max-width: 250px;
     
     
@@ -51,6 +58,7 @@ align-content:center;
     display: flex;
     justify-content: center;
 align-content:center;
+
 
 }
 

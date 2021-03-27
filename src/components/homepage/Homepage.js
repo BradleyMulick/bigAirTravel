@@ -52,13 +52,61 @@ export default class Homepage extends Component {
 
 
                 <div className="opening-para" style={{
-                    textAlign: "center"
+                    textAlign: "left"
                 }}>
+
+                    <p style={{
+                        fontSize: "48px", lineHeight: "1.5", letterSpacing: "5"
+                    }}>
+                        Costa Rica’s Osa Peninsula...
+                    </p>
+
+                    <p
+                        style={{
+                            fontSize: "18px", lineHeight: "1.5", letterSpacing: "5"
+                        }}>
+                        Where National Geographic designates “<b>The most biologically intense place on Earth”. </b> 13 tropical ecosystems home to rare and endangered animals and fish, as well as over two percent of the earth’s flora and fauna.
+
+                    </p>
+                    {/* <p style={{
+                        fontSize: "30px", lineHeight: "1.5", letterSpacing: "5"
+                    }}>
+                        To experience the area’s lush rainforest, tropical fjords and white sand beach is to experience nature at its best: stunning, unspoiled, and secluded. The Osa Peninsula is one of the most SPECTACULARLY BEAUTIFUL PLACES ON EARTH. Let us guide you through the wonders of this magical place.
+
+                    </p> */}
+
+                    <ul
+                        style={{
+                            borderRadius: 5,
+                            border: '2px black solid',
+                            margin: 40,
+                            padding: 40,
+                        }}>
+                        <h2
+                            style={{
+                                textAlign: "center",
+
+                            }}>Trip Itintery</h2>
+                        <li>Enjoy exceptional, personalized service from NowOsa’s experienced hosts and guides</li>
+                        <li>Travel by private Airbus A320 with airspace cabins set at 70% occupancy
+</li>
+                        <li>Choose to stay in beautiful villas or the luxury beach house
+</li>
+                        <li>Dine on delicious, local, organic farm-to-table meals
+</li>
+                        <li>Hike the longest stretch of lowland pacific rainforest on earth
+</li>
+                        <li>Enjoy the adrenaline rush of sport fishing for blue marlin — one of the world’s largest fish
+</li>
+                        <li>Dive among deep underwater caves, canyons, cliffs, and 15-foot tall coral reefs
+</li>
+                    </ul>
 
                     <p style={{
                         fontSize: "30px", lineHeight: "1.5", letterSpacing: "5"
                     }}>
-                        Enjoy “The Most Biological Place on Earth”  Costa Rica’s Osa Peninsula...National Geographic
+                        <b>Costa Rica Osa Adventures</b>  is unlike any typical expedition and guide service. We are unique, having nearly 30 years experience arranging, hosting and facilitating people’s dream vacations to Costa Rica. Our team prides itself on an unparalleled knowledge of — and love for — the land and the sea surrounding it. We know the Osa because we live in the Osa.  The primary rainforest is a must do in life, and we make it our job to ensure the safest, most enjoyable, and most successful experience possible for every one of our guests.
+
                     </p>
                 </div>
                 {/* 
@@ -71,6 +119,8 @@ export default class Homepage extends Component {
                     <Link to="/luxury-beach-house"><button>Luxury Beach House</button></Link>
                     {/* <Link to="/book"><button>Activities</button></Link> */}
                 </div>
+
+
                 <div className="home-gallery">
 
                     <HomeGallery />

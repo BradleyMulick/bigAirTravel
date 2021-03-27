@@ -4,6 +4,13 @@ import styled from 'styled-components'
 
 const Rats = styled.div`
 
+font-family: europa, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;
+letter-spacing: 2px;
+line-height: 1.4em;
+
 
 .rates-column {
     display: flex;
@@ -14,7 +21,7 @@ const Rats = styled.div`
 .rates-boxs {
 padding: 44px;
 display: 30%;
-font-size: 36px;
+font-size: 30px;
 }
 
 .rates-column h1 {
@@ -106,7 +113,7 @@ export default function Rates() {
                     <h1>
                         Buy Out
                 </h1>
-                    <h2>38 person</h2>
+                    <h2><u>38 person</u></h2>
                     <p>
                         $4,208 per person</p>
                     <p>
@@ -126,7 +133,7 @@ export default function Rates() {
                     <h1>
                         Buy Out
                 </h1>
-                    <h2>20 person</h2>
+                    <h2 ><u>20 person</u></h2>
                     <p>
                         $4,211 per person</p>
                     <p>

@@ -36,7 +36,7 @@ margin: 20px;
 }
 
 .room-p {
-    font-family: calluna;
+
     font-weight: 300;
 font-style: normal;
 font-size: 16px;
@@ -105,6 +105,7 @@ background-color: white;
 
 .beds {
     text-align: center;
+    list-style-type: none
 }
 
 .book-btn-contain {
