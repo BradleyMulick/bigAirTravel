@@ -151,7 +151,7 @@
   .opening-para {
     margin-top: 380px;
     display: inline-block;
-    width: 70%;
+    width: 90%;
     height: auto;
     text-align: left;
     font-family: europa, sans-serif;
@@ -165,5 +165,9 @@
   .the-image {
     height: 62%;
     width: auto;
+  }
+
+  .highlights {
+    width: 80%;
   }
 }

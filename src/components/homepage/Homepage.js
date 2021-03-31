@@ -40,7 +40,7 @@ export default class Homepage extends Component {
 
                         <img className="the-image" src='https://images.squarespace-cdn.com/content/v1/555f7716e4b0c32dcc3cfe69/1497727025821-B48D1Y1UDXPKTIQAJTVE/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/2017_LaPaloma_CostaRica-613.jpg?format=2500w' alt='' zIndex="100" />
                     </div>
-                    <div class="vimeo-wrapper">
+                    <div class="vimeo-wrapper" >
                         <iframe title="intro-vid" src="https://player.vimeo.com/video/487867058?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1"
                             frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
                     </div>
@@ -55,8 +55,8 @@ export default class Homepage extends Component {
                     textAlign: "left"
                 }}>
 
-                    <p style={{
-                        fontSize: "48px", lineHeight: "1.5", letterSpacing: "5"
+                    <p className="highlights" style={{
+                        fontSize: "48px", lineHeight: "1.5", letterSpacing: "5", marginTop: 100
                     }}>
                         Costa Rica’s Osa Peninsula...
                     </p>
@@ -65,7 +65,7 @@ export default class Homepage extends Component {
                         style={{
                             fontSize: "18px", lineHeight: "1.5", letterSpacing: "5"
                         }}>
-                        Where National Geographic designates “<b>The most biologically intense place on Earth”. </b> 13 tropical ecosystems home to rare and endangered animals and fish, as well as over two percent of the earth’s flora and fauna.
+                        Where National Geographic designates <b>"The most biologically intense place on Earth”. </b> 13 tropical ecosystems home to rare and endangered animals and fish, as well as over two percent of the earth’s flora and fauna.
 
                     </p>
                     {/* <p style={{
@@ -80,13 +80,16 @@ export default class Homepage extends Component {
                             borderRadius: 5,
                             border: '2px black solid',
                             margin: 40,
-                            padding: 40,
+                            padding: '10%',
                         }}>
                         <h2
+
                             style={{
                                 textAlign: "center",
 
-                            }}>Trip Itintery</h2>
+                            }}>Trip
+                            Highlights
+</h2>
                         <li>Enjoy exceptional, personalized service from NowOsa’s experienced hosts and guides</li>
                         <li>Travel by private Airbus A320 with airspace cabins set at 70% occupancy
 </li>
@@ -103,7 +106,7 @@ export default class Homepage extends Component {
                     </ul>
 
                     <p style={{
-                        fontSize: "30px", lineHeight: "1.5", letterSpacing: "5"
+                        fontSize: "18px", lineHeight: "1.5", letterSpacing: "5"
                     }}>
                         <b>Costa Rica Osa Adventures</b>  is unlike any typical expedition and guide service. We are unique, having nearly 30 years experience arranging, hosting and facilitating people’s dream vacations to Costa Rica. Our team prides itself on an unparalleled knowledge of — and love for — the land and the sea surrounding it. We know the Osa because we live in the Osa.  The primary rainforest is a must do in life, and we make it our job to ensure the safest, most enjoyable, and most successful experience possible for every one of our guests.
 
@@ -115,6 +118,7 @@ export default class Homepage extends Component {
                     <h4>— Haper's Bazaar Travel Guide</h4>
                 </p> */}
                 <div className="button-group">
+
                     <Link to="/accomodations"><button>Villas</button></Link>
                     <Link to="/luxury-beach-house"><button>Luxury Beach House</button></Link>
                     {/* <Link to="/book"><button>Activities</button></Link> */}

@@ -16,7 +16,7 @@ text-align: center;
 }
 .getting-osa {
     font-family: europa, sans-serif;
-    font-weight: bold
+
 }
 .header-img2 {
   height: 60vh;
@@ -43,6 +43,7 @@ margin-bottom: 40px;
 .details-holder {
     text-align: center;
     padding-left:50px;
+    border: 1px solid black
 }
 .flight-details {
     width: 100%;
@@ -54,6 +55,7 @@ margin-bottom: 40px;
 .depart-details {
     padding: 20px;
     margin-bottom: 10px;
+    border: 1px solid black
 }
 .depart-details h3 {
 }
@@ -99,8 +101,8 @@ export default function Rates() {
                         <p>Arrive San Jose, Costa Rica 6:00 AM Saturday</p>
 
                     </div>
-                    <p className="getting-osa" style={{ fontSize: "26px", marginBottom: "3vh" }}>FLIGHT DETAILS</p>
                     <div className="details-holder">
+                        <p className="getting-osa" style={{ fontSize: "26px", margin: "3vh" }}>FLIGHT DETAILS</p>
 
                         <ul className="flight-details">
                             <li>New Airbus A320 Planes with Airspace cabins.</li>
@@ -124,15 +126,15 @@ export default function Rates() {
 
                     </div>
 
-                    <p >Upon arrival in San Jose you will transfer to a Cessna Caravan for a 45 minute flight to Drake Bay.</p>
+                    <p style={{ textAlign: 'left' }}>Upon arrival in San Jose you will transfer to a Cessna Caravan for a 45 minute flight to Drake Bay.</p>
 
-                    <p>                    Once you land in Drake Bay, a taxi will take you on a 20 minute drive to the beachside town of Drake Bay where you will board a boat for a short (5 min) ride across the bay to the La Paloma Lodge dock.
+                    <p style={{ textAlign: 'left' }}>                    Once you land in Drake Bay, a taxi will take you on a 20 minute drive to the beachside town of Drake Bay where you will board a boat for a short (5 min) ride across the bay to the La Paloma Lodge dock.
 </p>
 
 
+                    <p style={{ textAlign: 'left' }}>Your international flight and in-country flight is Private and arranged by BAT
+</p>
                 </div>
-                <p>Your international flight and in-country flight is Private and arranged by BAT
-</p>
             </div>
         </Getter>
     )

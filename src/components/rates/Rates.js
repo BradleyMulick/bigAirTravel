@@ -22,6 +22,7 @@ line-height: 1.4em;
 padding: 44px;
 display: 30%;
 font-size: 30px;
+font-weight: normal;
 }
 
 .rates-column h1 {
@@ -46,6 +47,7 @@ font-size: 30px;
 
 .intro {
     font-size: 22px;
+
 }
 
 .packages {
@@ -89,21 +91,21 @@ export default function Rates() {
                 <div className="rates-boxs"><h1>
                     Superior</h1>
                     <p>
-                        $3,889 per person</p>
+                        $4,889 per person</p>
                     <p>
-                        $3,650 per child</p>
+                        $4,650 per child</p>
                 </div>
                 <div className="rates-boxs"><h1>
                     Deluxe
                     </h1>
                     <p>
-                        $4,259 per person
+                        $5,259 per person
                         </p>
                 </div>
 
                 <div className="rates-boxs">
                     <h1>Sunset</h1>
-                    <p>$4,574 per person</p>
+                    <p>$5,574 per person</p>
 
                 </div>
             </div>
@@ -115,18 +117,18 @@ export default function Rates() {
                 </h1>
                     <h2><u>38 person</u></h2>
                     <p>
-                        $4,208 per person</p>
+                        $5,208 per person</p>
                     <p>
-                        Total $159,852</p></div>
+                        Total $197,852</p></div>
                 <div
                     className="rates-boxs">
                     <h1>
                         Beach House
                 </h1>
                     <p>
-                        Master: $4,259 per person</p>
+                        Master: $5,259 per person</p>
                     <p>
-                        Apartment $3,889 per person</p>
+                        Apartment $4,889 per person</p>
                 </div>
                 <div
                     className="rates-boxs">
@@ -135,9 +137,9 @@ export default function Rates() {
                 </h1>
                     <h2 ><u>20 person</u></h2>
                     <p>
-                        $4,211 per person</p>
+                        $5,211 per person</p>
                     <p>
-                        Total $84,220</p></div>
+                        Total $104,220</p></div>
             </div>
 
 

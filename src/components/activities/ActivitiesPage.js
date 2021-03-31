@@ -32,6 +32,7 @@ line-height: 1.4em;
     margin-bottom:5vh;
     font-size: 48px;
     font-family: europa, sans-serif;
+
 }
 .activity-grid p {
     text-align: left;

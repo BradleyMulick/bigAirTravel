@@ -51,6 +51,12 @@ export default function About() {
 
                 <div className="amenities">
                     <p style={{ marginBottom: "20px", fontSize: "32px" }}>AMENITIES</p>
+                    <p style={{ fontWeight: 'bold' }}>
+                        3 Bedrooms
+                    </p>
+                    <p style={{ fontWeight: 'bold' }}>
+                        3 Bathrooms
+                    </p>
                     <p style={{ marginBottom: "20px" }}>The 3 bedroom/ 3 bath Luxury Beach House is appointed with the following, with your comfort in mind:</p>
                     <ul className="amen-list" style={{ paddingLeft: "20px" }}>
                         <li>Air-Conditioning</li>
@@ -73,7 +79,7 @@ export default function About() {
             </div>
 
 
-        </div>
+        </div >
 
     )
 }
