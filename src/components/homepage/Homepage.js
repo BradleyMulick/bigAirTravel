@@ -55,6 +55,15 @@ export default class Homepage extends Component {
                     textAlign: "left"
                 }}>
 
+                    <p
+                        style={{
+                            fontSize: "24px", lineHeight: "1.5", letterSpacing: "5", textAlign: 'center'
+                        }}>
+                        Trip 1 - Depart SLC Friday, November 12th / Return Saturday, November 20th
+                       <br />
+                        Trip 2 - Depart SLC Friday, November 26th / Return Saturday, December 4th
+                    </p>
+
                     <p className="highlights" style={{
                         fontSize: "48px", lineHeight: "1.5", letterSpacing: "5", marginTop: 100
                     }}>
